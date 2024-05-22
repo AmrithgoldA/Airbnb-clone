@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start of Navbar component css */
+
+.bnblogo {
+    width: 8rem;
+}
+
+.navbar-container {
+    padding: 2% 2%;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+/* start of Hero component css */
+
+.hero-component {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5% 10%;
+}
+
+.hero-image {
+    max-width: 100%;
+    align-self: center;
+}
+
+.hero-paragraph {
+    font-size: 1rem;
+    margin-top: 0rem;
+}
